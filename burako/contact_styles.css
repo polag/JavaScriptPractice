@@ -1,0 +1,30 @@
+.full_container{
+	background-image: url("juego.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	font-family:"system-ui"
+	
+}
+
+.table_content{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.table_content, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px 5px;
+  
+}
+th{
+	background-color:green;
+}
+
+h1,h2{
+	display:block;
+	text-align: center;
+}
+
+
+}

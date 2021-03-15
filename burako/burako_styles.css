@@ -1,0 +1,105 @@
+.full_container{
+	background-image: url("juego.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	font-family:"arial";
+	padding: 60px 60px;
+	
+}
+body{
+	margin: 0;
+}
+
+.nav-main{
+	width: 100%;
+	height: 60px;
+	background-color: #fff ;
+	display: flex;
+	flex-wrap: wrap;
+	z-index: 1000;
+	position: fixed;
+	top:0;
+	
+}
+
+.btn-toggle-nav{
+	width: 60px;
+	height: 100%;
+	background-color: #f98f39;
+	background-image: url("menu.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	cursor: pointer;
+
+}
+.btn-toggle-nav:hover{
+	opacity: 0.5;
+	
+}
+
+.nav-main ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-left: 15px;
+
+}
+.nav-main ul li{
+	list-style: none;
+	line-height: 30px;
+
+
+}
+
+.nav-main ul li a{
+	display: block;
+	height: 100%;
+	padding: 0 10px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #111;
+	font-family:"arial";
+	font-size: 16px;
+
+}
+
+.nav-sidebar{
+	position: fixed;
+	left: 0;
+	bottom:0;
+	width: 50px;
+	height: calc(100vh - 60px);
+	padding: 0 5px;
+	background-color: #1b1b1b;
+	z-index: 1000;
+}
+
+.nav-sidebar ul{
+	padding: 15px;
+	overflow: hidden;
+	visibility: hidden;
+}
+
+.nav-sidebar ul li{
+	line-height: 60px;
+	list-style: none;
+}
+
+.nav-sidebar ul li a, .nav-sidebar ul li span{
+	display: block;
+	height: 60px;
+	padding: 0 10px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #FFF;
+	font-family:"arial";
+	font-size: 16px;
+	white-space: nowrap;
+}
+
+.nav-sidebar ul li a:hover{
+	background-color: #222;
+}
+
+
+
+
