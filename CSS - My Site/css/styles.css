@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  color: #40514E;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-size: 5.625rem;
+  font-family: "Sacramento", cursive;
+  color: #66bfbf;
+  line-height: 2;
+}
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  color: #66bfbf;
+  font-weight: normal;
+}
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #11999e;
+}
+
+hr {
+  width: 5%;
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  margin: 100px auto;
+}
+
+a {
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #EAF6F6;
+}
+
+p{
+  line-height: 2;
+}
+
+.top-container {
+  background-color: #ecf4f3;
+  position: relative;
+  padding-top: 100px;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 50px;
+  right: 500px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  bottom: 300px;
+  left: 500px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.computer {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.travel {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.bottom-container {
+  background-color: #66bfbf;
+  /*height: 100px;*/
+  padding: 50px 0 20px;
+}
+
+.copyright-msg {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.footer-link {
+  padding: 25px;
+  margin: auto;
+}
+
+.contact-me {
+  width: 50%;
+  margin: 100px auto;
+  
+}
+
+.profile {
+  width: 50%;
+  margin: 100px auto;
+  line-height: 2;
+}
+
+.round-img {
+  padding-top: 50px;
+  width: 25%;
+}
+
+.btn-contact {
+  border-radius: 8px;
+  color: white;
+  background-color: #66bfbf;
+  border: solid #66bfbf 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  padding: 10px 10px;
+}
+
+.btn-contact:hover {
+  color: #66bfbf;
+  background-color: white;
+  border: solid #66bfbf 1px;
+}
+
+.intro{
+  width: 70%;
+  margin: auto;
+}
+
+.contact-msg{
+  width: 70%;
+  margin: 40px auto 60px;
+}
